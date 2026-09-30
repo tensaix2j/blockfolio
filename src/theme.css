@@ -1,0 +1,75 @@
+:root {
+  color: #24312c;
+  background: #f3f6f4;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+body,
+.app-shell {
+  background: #f3f6f4;
+}
+
+.topbar h1,
+.section-heading h2,
+.total-value,
+.metric-value,
+.asset-cell strong,
+.value strong {
+  color: #24312c;
+}
+
+.total-card,
+.metric-card,
+.table-card {
+  background: #ffffff;
+  border-color: #dce6e1;
+}
+
+.icon-button {
+  background: #ffffff;
+  border-color: #d5e0da;
+  color: #53645c;
+}
+
+.table-head {
+  border-color: #e4ebe7;
+}
+
+.holding-row {
+  border-color: #e9efec;
+}
+
+.quantity,
+.price {
+  color: #51635b;
+}
+
+.price small {
+  display: block;
+  margin-top: 4px;
+  color: #71807b;
+  font: 11px 'DM Mono', monospace;
+}
+
+.total-secondary {
+  color: #61726a;
+}
+
+.modal {
+  background: #ffffff;
+  border-color: #dce6e1;
+}
+
+.modal input {
+  background: #f5f8f6;
+  border-color: #d5e0da;
+  color: #24312c;
+}
+
+.modal-backdrop {
+  background: #24312c66;
+}
